@@ -23,7 +23,7 @@ export default function Profile(props) {
   } = props.route.params.item;
 
   const deleteEmployee = () => {
-    fetch("http://cd9a80aa01c2.ngrok.io/delete", {
+    fetch("http://ab200864a7d6.ngrok.io/delete", {
       method: "post",
       headers: {
         "Content-Type": "application/json",

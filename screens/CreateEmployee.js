@@ -41,7 +41,7 @@ export default function CreateEmplyee({ navigation, route }) {
   const [modal, setModal] = useState("false");
   //const [enableShift,setenableShift]=useState("false");
   const updateData = () => {
-    fetch("http://cd9a80aa01c2.ngrok.io/update", {
+    fetch("http://ab200864a7d6.ngrok.io/update", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -65,7 +65,7 @@ export default function CreateEmplyee({ navigation, route }) {
       });
   };
   const submitData = () => {
-    fetch("http://cd9a80aa01c2.ngrok.io/send-data", {
+    fetch("http://ab200864a7d6.ngrok.io/send-data", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
