@@ -80,12 +80,3 @@ app.post("/update", (req, res) => {
 app.listen(3000, () => {
   console.log("Server runing");
 });
-
-/*{
-  "name": "Mélissa Boutata",
-  "email": "hm_boutata@gmail.dz",
-  "phone": "0554957874",
-  "picture":"some url", 
-  "salary": "8000$",
-  "position": "Mobile Developer"
-}*/
